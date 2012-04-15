@@ -1,0 +1,15 @@
+@(title: String)(content: Html)
+
+@main(title) {
+    <div class="span2">
+        <div class="well sidebar-nav">
+            <ul class="nav nav-list">
+                <li class="nav-header">Configuration</li>
+                <li><a href="@routes.Configurations.index()">Configurations</a></li>
+            </ul>
+        </div><!--/.well -->
+    </div><!--/span-->
+    <div class="span10">
+        @content
+    </div>
+}

@@ -2,9 +2,9 @@ package controllers;
 
 import play.mvc.Controller;
 import play.mvc.Result;
-import views.html.Dashboard.index;
+import views.html.Configurations.index;
 
-public class Dashboard extends Controller {
+public class Configurations extends Controller {
 
     public static Result index() {
         return ok(index.render());
